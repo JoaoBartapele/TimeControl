@@ -1,0 +1,28 @@
+<div class="container">
+  <table class="table table-striped">
+    <thead class="text-center">
+      <th>Dia</th>
+      <th>Entrada</th>
+      <th>Almoço Saída</th>
+      <th>Almoço Retorno</th>
+      <th>Saída</th>
+    </thead>
+    <tbody *ngFor="let item of a; let i=index" >
+      <tr>
+        <td class="font-weight-bold text-center">{{i + 1}}</td>
+        <td>
+          <input class="form-control" type="text">
+        </td>
+        <td>
+          <input class="form-control" type="text">
+        </td>
+        <td>
+          <input class="form-control" type="text">
+        </td>
+        <td>
+          <input class="form-control" type="text">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
